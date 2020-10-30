@@ -1,8 +1,8 @@
 ---
 vm_config:
-  - host1.gator.local:
+  - host1.lab.local:
     hostname: host1
-    domain: "gator.local"
+    domain: "lab.local"
     template: "Centos7-Gold"
     hardware:
       vcpu: 2
@@ -10,14 +10,14 @@ vm_config:
       disk_size: 40
       datastore: "esxi-Datastore"
     network:
-      ip_address: "10.10.30.70"
+      ip_address: "192.168.0.2"
       ip_netmask: "24"
-      ip_gateway: "10.10.30.1"
+      ip_gateway: "192.168.0.1"
       vdsport: "LAB"
 
-  - host2.gator.local:
+  - host2.lab.local:
     hostname: host2
-    domain: "gator.local"
+    domain: "lab.local"
     template: "Centos7-Gold"
     hardware:
       vcpu: 2
@@ -25,7 +25,7 @@ vm_config:
       disk_size: 40
       datastore: "esxi-Datastore"
     network:
-      ip_address: "10.10.30.71"
+      ip_address: "192.168.0.3"
       ip_netmask: "24"
-      ip_gateway: "10.10.30.1"
+      ip_gateway: "192.168.0.1"
       vdsport: "LAB"
