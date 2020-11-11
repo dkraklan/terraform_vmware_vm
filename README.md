@@ -1,6 +1,6 @@
 # Terraform Vmware VM
  
-This is a repo showing how you can create multiple VM's in vmware using ansible and terraform. While you could accomplish this with just ansible in a similar fashion this is to show the basic concept of interacting with terraform using ansible. It's meant to be expanded upon by adding post VM post creation functionallity with ansible to install your applications and configuration. 
+This is a repo showing how you can create multiple VM's in vmware using ansible and terraform. While you could accomplish this with just ansible in a similar fashion this is to show the basic concept of interacting with terraform using ansible. It's meant to be expanded upon by adding post VM post creation functionallity with ansible to install your applications and configuration. Read a more thorough write up [Here](https://netsyncr.io/creating-virtual-machines-in-vsphere-with-terraform/)
 
 ## Requirements
 * Ansible 
